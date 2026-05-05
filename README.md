@@ -16,6 +16,8 @@ changes, edit `index.html` directly in GitHub:
 - Project/research entries: search for `id="projects"`.
 - Contact email: search for `id="contact"`.
 - Styling: edit `styles.css`.
+- Photo: replace `assets/kavya-photo.svg`, or give Codex a new image and ask
+  it to regenerate the optimized asset.
 - PDFs: upload files into the `papers/` folder, then link to them from
   `index.html`.
 
