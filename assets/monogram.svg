@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Kavya monogram</title>
+  <desc id="desc">Minimal monogram mark with the letter K.</desc>
+  <rect width="240" height="240" rx="18" fill="#fbfaf7"/>
+  <circle cx="120" cy="120" r="86" fill="#ffffff" stroke="#ded9cf" stroke-width="2"/>
+  <path d="M82 165V75h19v39l37-39h25l-40 42 43 48h-27l-38-43v43H82Z" fill="#0e6f68"/>
+  <path d="M49 193h142" stroke="#1d1d1f" stroke-width="5" stroke-linecap="round"/>
+</svg>
