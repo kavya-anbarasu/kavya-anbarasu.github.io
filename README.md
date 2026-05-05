@@ -17,9 +17,9 @@ changes, edit `index.html` directly in GitHub:
 - Project/research entries: search for `id="projects"`.
 - Contact email: search for `id="contact"`.
 - Styling: edit `styles.css`.
-- Photo: upload a cropped image into the `assets/` folder, then change the
-  `.portrait-photo` `src` in `index.html` to that file path. A clear filename
-  would be `assets/kavya-photo-cropped.jpg`.
+- Photo: the site uses `assets/kavya-photo-cropped.svg`. To swap it, add a
+  cropped PNG and ask Codex to regenerate that SVG wrapper without changing the
+  site crop.
 - Resume: replace `assets/kavya-anbarasu-resume.pdf`.
 - PDFs: upload files into the `papers/` folder, then link to them from
   `index.html`.
