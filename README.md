@@ -1,8 +1,8 @@
 # Kavya Personal Website
 
 A minimal static personal website for GitHub Pages. It has a sticky header,
-intro/social links, experience, projects/research, and link slots for code,
-papers, PDFs, DOIs, and demos.
+home/about sections, icon links, experience, projects/research, a resume PDF,
+and link slots for code, papers, PDFs, DOIs, and demos.
 
 Live site: <https://kavya-anbarasu.github.io/>
 
@@ -11,13 +11,15 @@ Live site: <https://kavya-anbarasu.github.io/>
 The site is plain HTML/CSS, so there is no build step. For simple content
 changes, edit `index.html` directly in GitHub:
 
-- Social links: search for `social-links`.
+- Social links: search for `icon-links`.
+- Home/about copy: search for `id="home"` or `id="about"`.
 - Experience entries: search for `id="experience"`.
 - Project/research entries: search for `id="projects"`.
 - Contact email: search for `id="contact"`.
 - Styling: edit `styles.css`.
 - Photo: replace `assets/kavya-photo.svg`, or give Codex a new image and ask
   it to regenerate the optimized asset.
+- Resume: replace `assets/kavya-anbarasu-resume.pdf`.
 - PDFs: upload files into the `papers/` folder, then link to them from
   `index.html`.
 
