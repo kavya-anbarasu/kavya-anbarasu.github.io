@@ -109,41 +109,20 @@ a:hover {
   border-bottom: 1px solid var(--line);
 }
 
-.hero {
+.intro {
   min-height: 68vh;
-  display: flex;
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
   align-items: center;
+  gap: 58px;
   padding: 108px 0 88px;
 }
 
-.hero-copy {
-  max-width: 760px;
-}
-
-.hero h1 {
-  margin-bottom: 16px;
-  font-size: 5.6rem;
-  line-height: 0.94;
-}
-
-.hero p {
-  color: var(--ink);
-  font-size: 1.35rem;
-  line-height: 1.45;
-}
-
-.about {
-  display: grid;
-  grid-template-columns: 240px minmax(0, 1fr);
-  align-items: start;
-  gap: 58px;
-}
-
-.about-copy {
+.intro-copy {
   max-width: 680px;
 }
 
-.about-copy p + p {
+.intro-copy p + p {
   margin-top: 16px;
 }
 
@@ -202,7 +181,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-top: 34px;
+  margin-top: 28px;
 }
 
 .icon-links a {
@@ -375,12 +354,9 @@ p {
     font-size: 0.84rem;
   }
 
-  .hero {
+  .intro {
     min-height: 58vh;
     padding: 68px 0 54px;
-  }
-
-  .about {
     grid-template-columns: 1fr;
     gap: 28px;
   }
@@ -417,7 +393,6 @@ p {
     flex-wrap: wrap;
   }
 
-  .hero h1,
   h1 {
     font-size: 3.45rem;
   }
@@ -426,7 +401,6 @@ p {
     font-size: 2.25rem;
   }
 
-  .hero p,
   .lede {
     font-size: 1.22rem;
   }
@@ -435,7 +409,7 @@ p {
 @media (max-width: 520px) {
   .nav-links {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .nav-links a {
@@ -449,7 +423,6 @@ p {
     width: min(100vw - 24px, var(--max-width));
   }
 
-  .hero h1,
   h1 {
     font-size: 2.82rem;
   }
